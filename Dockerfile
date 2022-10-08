@@ -1,12 +1,11 @@
-#!/usr/bin/env bash
-
+# Not finished
 FROM rust:1.31
 
 WORKDIR /usr/src/myapp
 COPY . .
 
-RUN cargo install trunk
-
-CMD ["trunk serve"]
+RUN cargo install --path .
 
 EXPOSE 8080
+
+CMD ["trunk serve"]

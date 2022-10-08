@@ -3,21 +3,21 @@ body {
 }
 
 div{
-    margin-top: 35px;
+    margin-top: 40px;
     text-align: center;
     color: aliceblue;
-    font-family: "Apple LiGothic";
+    font-family: YuGothic, serif;
 }
 
 p {
-    font-size: 15em;
+    font-size: 12em;
 }
 
 button {
     width: 50%;
-    height: 500px;
-    font-size: 18em;
-    font-family: "Apple LiGothic";
+    height: 331px;
+    font-size: 10em;
+    font-family: YuGothic, serif;
     color: aqua;
     text-align: center;
     background-color: brown;
